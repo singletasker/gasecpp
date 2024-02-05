@@ -1,0 +1,3 @@
+"D:\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\gasecpp.dir/objects.a
+D:\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\gasecpp.dir/objects.a @CMakeFiles\gasecpp.dir\objects1.rsp
+D:\CLION2~1.2\bin\mingw\bin\G__~1.EXE -g -shared -o libgasecpp.dll -Wl,--out-implib,libgasecpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\gasecpp.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\gasecpp.dir\linkLibs.rsp

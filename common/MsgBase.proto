@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+enum ESvrState {
+    ESS_CRASH                   = 0;
+    ESS_NORMAL                  = 1;
+    ESS_MAINTAIN                = 2;
+}
+
+enum ELoginMode {
+    ELM_LOGIN                   = 0;
+    ELM_REGISTER                = 1;
+}
